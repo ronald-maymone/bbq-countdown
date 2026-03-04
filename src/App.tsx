@@ -12,7 +12,7 @@ function App() {
   // the input doesn't provide enough information (like time)
 
   if (isExpired) {
-    return <Typography variant='h2'>The event has started!</Typography>;
+    return <Typography variant='h2'>The CHURRAS! has started!</Typography>;
   }
 
   return (
