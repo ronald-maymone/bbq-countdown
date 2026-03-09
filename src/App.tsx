@@ -5,7 +5,7 @@ import CountdownDisplay from './components/CountDownDisplay'
 
 function App() {
 
-  const targetDate = new Date('March 27 2026 12:15:00');
+  const targetDate = new Date('March 27 2026 19:00:00');
   const { days, hours, minutes, seconds, isExpired } = useCountdown(targetDate);
 
   // Specify a reference date (e.g., new Date()) to handle cases where 
