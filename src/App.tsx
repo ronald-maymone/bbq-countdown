@@ -31,18 +31,16 @@ function App() {
         <Typography variant="h2">:</Typography>
         <CountdownDisplay value={seconds} type="Secs" />
       </div>
+      <div >
+        <Typography variant='h2' marginTop={10}>
+          When?
+        </Typography>
+        <Typography variant='h4'>
+          27/03/2026 - 19h
+        </Typography>
+      </div>
     </div>
   );
-
-
-  // return (
-  //   <>
-
-  //     <Typography variant='h4'>
-  //       For the Churras
-  //     </Typography>
-  //   </>
-  // );
 }
 
 export default App;
